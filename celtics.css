@@ -1,0 +1,128 @@
+#container
+{
+    width:auto;
+    margin: auto;
+    color:transparent;
+    line-height: 130%;
+    font-style: normal;
+}
+#masthead
+{
+border-top: 5px solid;
+border-bottom: 20px solid;
+word-spacing: 0.3em;
+letter-spacing: 0.1em;
+line-height: 30px;
+}
+#topbar
+{
+    margin-bottom: 8px;
+    font-family: verdana;
+    text-align: justify;
+    color:white;
+    background-color: #aeaf3b;
+    list-style-type: none;
+    border: 1px solid gray;
+   width:fit-content;
+}
+#topbar a
+{
+    text-decoration: none;
+    padding:5px;
+    color:#fff;
+}
+#topbar a:hover
+{
+    color: yellow;
+    background-color: black;
+}
+#navcontainer
+{
+    margin-top: 20px;
+    float:left;
+    width:200px;
+    font-style: normal;
+    font-family: verdana;
+    background-attachment: scroll;
+    margin-bottom: 5px;
+}
+#navcontainer a
+{
+    display: block;
+    padding:3px;
+    width:182px;
+    background-color:#405e04;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right:1px solid gray;
+    border-top: 1px solid gray;
+}
+#navcontainer a:link
+{
+    color:white;
+    text-decoration: none;
+}
+#navcontainer a:hover
+{
+    background-color: #213003;
+    color: white;
+    font-weight:normal;
+}
+#content
+{
+    margin:0;
+    word-spacing: 0.3;
+    padding:15px;
+    width:95%;
+    background-color:#405e04 ;/*/////////content box*/
+    color:white;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: white;
+    border-bottom: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    line-height: 1.2; /*change line height between words*/
+}
+#content p
+{
+    margin-left: left 15px;
+}
+body
+{
+    font-family:verdana;
+    color: white;
+    background-image: url(wood-bkgrd.jpg);
+}
+a
+{
+text-decoration:none;
+}
+a:link
+{
+    color:red
+}
+a:visited
+{
+    color:white
+}
+a:hover
+{
+background-color: white;
+color:red;
+text-decoration:none
+}
+#footer
+{
+    clear:both;
+    margin:0;
+    padding:0.5em;
+    color:white;
+    font-family:"verdana";
+text-align: left;
+font-size: 12px;
+}
